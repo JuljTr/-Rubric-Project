@@ -1,0 +1,33 @@
+/*CARD IMAGES*/
+
+.card-1 {
+    background-image: url(images/book.jpg);
+    background-size: cover;
+}
+
+.card-2 {
+    background-image: url(images/book1.jpg);
+    background-size: cover;
+}
+
+.card-3 {
+    background-image: url(images/book8.jpg);
+    background-size: cover;
+}
+
+.card-4,
+.card-5,
+.card-6,
+.card-7 {
+    background-image: url(images/book3.jpg);
+    background-size: cover;
+}
+
+
+/*AVATAR*/
+
+.author-image {
+    width: 8%;
+    background-size: cover;
+    border-radius: 50%;
+}
