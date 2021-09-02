@@ -1,7 +1,7 @@
 /*CONTAINER*/
 
 .post-container {
-    margin: 0 0 0 0;
+    margin: 0;
     display: grid;
     grid-template-columns: 80% 20%;
     grid-template-rows: 9vh 1fr 9vh;
@@ -17,7 +17,7 @@
     flex-direction: column;
 }
 
-h1 {
+.blog-title {
     margin-bottom: 2%;
     font-style: oblique;
     text-decoration: underline;
@@ -67,4 +67,22 @@ ul {
 .footer {
     grid-row: 3;
     grid-column: 1/3;
+}
+
+/*MEDIA QUERY*/
+
+@media only screen and (max-width: 660px) {
+    .post-container {
+        grid-template-rows: auto 1fr auto auto;
+        grid-template-columns: 1fr;
+    }
+    .archives {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        height: initial;
+    }
+    .footer {
+        grid-column: 1/2;
+        grid-row: 4/4;
+    }
 }
